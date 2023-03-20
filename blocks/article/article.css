@@ -1,5 +1,5 @@
 .article {
-    background-color: #5262F5;
+    background-color: var(--accent-backround);
     width: 300px;
     height: 400px;
     padding: 34px 23px 20px;
