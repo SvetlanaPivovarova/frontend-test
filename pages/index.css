@@ -1,3 +1,12 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts);
+@import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
+
+@import url(../blocks/articles-section/articles-section.css);
+
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__heading/article__heading.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__button-more/article__button-more.css);

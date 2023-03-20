@@ -1,0 +1,12 @@
+.article__button-more {
+    background-color: #FFC700;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    text-align: center;
+    padding: 9px 6px;
+    border: none;
+    width: 254px;
+    height: 37px;
+}
