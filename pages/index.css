@@ -12,3 +12,5 @@
 @import url(../blocks/article/__heading/article__heading.css);
 @import url(../blocks/article/__text/article__text.css);
 @import url(../blocks/article/__button-more/article__button-more.css);
+
+@import url(../blocks/navigation/navigation.css);

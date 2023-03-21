@@ -7,3 +7,19 @@
     padding: 117px 33px 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 800px) {
+    .articles-section {
+        height: 568px;
+        position: relative;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .articles-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
