@@ -13,4 +13,10 @@
 @import url(../blocks/article/__text/article__text.css);
 @import url(../blocks/article/__button-more/article__button-more.css);
 
-@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__switch/slider__switch.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__navigation/slider__navigation.css);
+@import url(../blocks/slider/__navigation-bar/slider__navigation-bar.css);
+

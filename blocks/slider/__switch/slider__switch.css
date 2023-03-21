@@ -1,0 +1,10 @@
+.slider__switch {
+    position: absolute;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 924px) {
+    .slider__switch {
+        display: block;
+    }
+}

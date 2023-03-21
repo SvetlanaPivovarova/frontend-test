@@ -1,0 +1,23 @@
+@media screen and (max-width: 924px) {
+    .slider__navigation-bar {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: 11px;
+        margin-bottom: 56px;
+        cursor: pointer;
+        background-color: var(--white-background);
+        opacity: .8;
+        transition: all 0.4s ease;
+    }
+
+    .slider__navigation-bar:last-of-type {
+        margin-right: 0;
+    }
+
+    .slider__navigation-bar:hover {
+        opacity: 1;
+        transform: scale(1.1);
+        background-color: var(--accent-backround);
+    }
+}
