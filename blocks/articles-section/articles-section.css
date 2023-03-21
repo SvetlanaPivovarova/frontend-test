@@ -11,9 +11,9 @@
 @media screen and (max-width: 800px) {
     .articles-section {
         height: 568px;
-        position: relative;
         margin: 0 auto;
         flex-direction: column;
+        padding-top: 84px;
     }
 }
 
