@@ -1,0 +1,26 @@
+.article__button-more {
+    background-color: var(--yellow-backround);
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black-text);
+    text-align: center;
+    padding: 9px 6px;
+    border: none;
+    width: 254px;
+    height: 37px;
+    position: relative;
+    cursor: pointer;
+    transition: opacity .2s ease;
+}
+
+.article__button-more:hover {
+    opacity: .8;
+}
+
+.article__button-more::after {
+    content: url("../../../images/vector.svg");
+    position: absolute;
+    top: 9.53px;
+    right: 13px;
+}

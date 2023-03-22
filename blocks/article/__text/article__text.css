@@ -1,0 +1,9 @@
+.article__text {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0 5px 0 6px;
+    box-sizing: border-box;
+    margin: 0 0 18px;
+    display: block;
+    min-height: 242px;
+}

@@ -1,0 +1,5 @@
+.page__content {
+    background-color: var(--grey-background);
+    height: 100vh;
+    margin: 0 auto;
+}

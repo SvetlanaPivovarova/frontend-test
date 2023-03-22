@@ -1,0 +1,32 @@
+.articles-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    flex-wrap: nowrap;
+    padding: 117px 33px 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 968px) {
+    .articles-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .articles-section {
+        height: 568px;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-top: 84px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .articles-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
