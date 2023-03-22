@@ -1,0 +1,17 @@
+.slider {
+    width: 100%;
+}
+
+@media screen and (max-width: 924px) {
+    .slider {
+        height: 568px;
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}

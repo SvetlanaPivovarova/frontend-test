@@ -1,0 +1,48 @@
+.slider__navigation-bar {
+    display: none;
+}
+
+
+@media screen and (max-width: 924px) {
+    .slider__navigation-bar {
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin: 13px 11px 56px 0;
+        border-radius: 50%;
+        z-index: 10;
+        outline: 7.5px solid var(--white-background);
+        outline-offset: -10px;
+        cursor: pointer;
+        appearance: none;
+    }
+
+    .slider__navigation-bar:last-of-type {
+        margin-right: 0;
+    }
+      
+    .slider__navigation-bar:checked {
+        animation: check 0.4s linear forwards;
+    }
+    
+    .slider__navigation-bar:checked:nth-of-type(1) ~ .slider__inner {
+        left: 0%;
+    }
+      
+    .slider__navigation-bar:checked:nth-of-type(2) ~ .slider__inner {
+        left: -100%;
+    }
+      
+    .slider__navigation-bar:checked:nth-of-type(3) ~ .slider__inner {
+        left: -200%;
+    }
+
+    @keyframes check {
+        50% {
+          outline-color: var(--accent-backround);
+        }
+        100% {
+          outline-color: var(--accent-backround);
+        }
+    }
+}

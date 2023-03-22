@@ -1,0 +1,21 @@
+.slider__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 924px) {
+    .slider__inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300%;
+        height: 100%;
+        transition: left 0.3s ease;
+        display: flex;
+        flex-wrap: nowrap; 
+    }
+}

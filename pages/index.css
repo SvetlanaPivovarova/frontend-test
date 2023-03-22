@@ -12,3 +12,8 @@
 @import url(../blocks/article/__heading/article__heading.css);
 @import url(../blocks/article/__text/article__text.css);
 @import url(../blocks/article/__button-more/article__button-more.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__navigation-bar/slider__navigation-bar.css);
+@import url(../blocks/slider/__inner/slider__inner.css);
+@import url(../blocks/slider/__content/slider__content.css);
