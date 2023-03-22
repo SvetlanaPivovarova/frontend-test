@@ -18,8 +18,4 @@
 * слайдер на CSS для мобильной версии.
 
 
-**Размещение проекта (deploy)**
-Проект развернут на gh-pages по ссылке ниже
-
-[Deploy](https://svetlanapivovarova.github.io/architectural-style/) \
 
